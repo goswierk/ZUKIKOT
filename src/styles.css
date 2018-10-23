@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+.container{
+	max-width:100%!important;
+	height:500px;
+	background-size:100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	vertical-align:middle;
+	position:relative;
+	color:white;
+}
+
+
+#home .container{
+		background: url('/assets/bg-picture.jpeg');
+		background-size:100%;
+}
+
+#home h2{
+	color:white;
+    font-weight: 200;
+    letter-spacing: 1px;
+	position:absolute;
+	bottom:0px!important;
+	padding:50px;
+	float:left;
+
+}
+
+#contact h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+	text-align:center!important;
+	padding-top:100px;
+}
+
+#contact p{
+    letter-spacing: 3px;
+	text-align:center!important;
+}
