@@ -3,7 +3,7 @@
 @import "~font-awesome/css/font-awesome.css";
 .container{
 	max-width:100%!important;
-	height:500px;
+	min-height:500px;
 	background-size:100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,12 +12,14 @@
 	vertical-align:middle;
 	position:relative;
 	color:white;
+	padding:50px
 }
 
 
 #home .container{
 		background: url('/assets/bg-picture.jpeg');
 		background-size:100%;
+		min-height:500px;
 }
 
 #home h2{
@@ -35,7 +37,7 @@
     font-weight: 400;
     letter-spacing: 1px;
 	text-align:center!important;
-	padding-top:100px;
+	top:0
 }
 
 #contact p{
@@ -43,3 +45,9 @@
 	text-align:center!important;
 	
 }
+
+.map{
+	min-height:100px;
+	height:300px;
+}
+	
